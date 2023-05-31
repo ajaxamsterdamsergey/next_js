@@ -1,0 +1,30 @@
+.chatButton {
+  background-image: url('../../public/img/Frame.png');
+  background-size: cover;
+  background-color: #fff;
+  width: 22px;
+  height: 19px;
+  border: none;
+  font-size: 0px;
+}
+
+.chatButton:hover {
+  background: #c6c9f8;
+  opacity: 0.6;
+}
+@media (min-width: 768px) {
+    .chatButton {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    width: 61px;
+    height: 37px;
+    background: #c6c9f8;
+    border-radius: 15px;
+  }}

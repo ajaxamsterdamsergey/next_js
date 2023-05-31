@@ -1,0 +1,31 @@
+.columnNames {
+  display: none;
+}
+@media (min-width: 1200px) {
+.columnNames {
+    font-family: 'Poppins';
+    border: 1px solid rgba(198, 201, 248, 0.5);
+    background-color: rgba(198, 201, 248, 0.5);
+    gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    height: 40px;
+    width: 90%;
+}
+.userColumn {
+    background-color: #ffffff;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
